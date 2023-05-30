@@ -2,6 +2,7 @@ import {useState} from 'react';
 
 function Clicker() {
 
+    
     const [count, setCount] = useState(0); // array destructuring
     // useState hook makes state variables!
 
@@ -10,7 +11,7 @@ function Clicker() {
         console.log('Click me got clicked!!');
         // console.log(count);
         setCount(count + 1);
-    
+        
     }
 
     return (
